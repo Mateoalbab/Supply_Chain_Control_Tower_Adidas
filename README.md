@@ -9,7 +9,7 @@
 
 Facing a disconnect between ERP inventory reports and regional sales realities, this project deployed a **Supply Chain Control Tower** to audit the distribution network. The analysis uncovered a critical allocation failure: **85% of global inventory was stagnant in North America, while high-demand Latin American markets faced 970% demand-to-supply deficits.**
 
-![Dashboard Overview](01_dashboard_overview.png)
+![Dashboard Overview](Outputs/01_dashboard_overview.png)
 *Figure 1: Executive Control Tower showing the inventory disparity between NAM (Grey) and LATAM (Black).*
 
 ---
@@ -37,7 +37,7 @@ To demonstrate enterprise versatility, this project employs two distinct ETL met
 * **M-Language Transformation:** Utilized Power Query Editor to perform currency conversion (`if [Currency] = "COP"...`), text parsing, and conditional logic entirely within the BI semantic model.
 * **Operational Dashboard:** Designed a secondary "Operations Monitor" focusing on drill-down granularity for regional managers.
 
-![Operational Dashboard](05_operational_dashboard_powerquery.png)
+![Operational Dashboard](Outputs/05_operational_dashboard_powerquery.png)
 *Figure 3: Operational Drill-Down Dashboard showing Price vs. Volume elasticity.*
 
 ---
@@ -63,9 +63,9 @@ The analysis delivered three critical findings that contradicted the initial all
 ---
 
 ## 🚀 Usage Instructions
-Data Simulation: Run data_generator_SCM.py to refresh the dataset.
+Data Simulation: Run `Source/data_generator_SCM.py` to refresh the dataset.
 
-Pipeline Execution: Run etl_pipeline_SCM.py to clean data for Method A.
+Pipeline Execution: Run `Source/etl_pipeline_SCM.py` to clean data for Method A.
 
 Visualization: Open either .pbix file to explore the models.
 
