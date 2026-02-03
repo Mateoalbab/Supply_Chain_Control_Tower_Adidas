@@ -1,0 +1,14 @@
+Supply_Chain_Control_Tower_Adidas/
+├── Configuration/      # Connection strings (SQL), API keys, and environment settings.
+├── Data/               # The core data.
+│   ├── Raw/            # Original, untouched files (CSVs, Excel, JSON).
+│   ├── Processed/      # Cleaned data ready for analysis or SQL upload.
+│   └── External/       # Logos, reference images, or third-party datasets.
+├── Documents/          # Project manuals, data dictionaries, and screenshots.
+├── Notebooks/          # Jupyter notebooks (.ipynb) for EDA and prototyping.
+├── Outputs/            # Final results: exported reports, plots, and PDF dashboards.
+├── Source/             # Final, clean Python scripts (.py) for ETL and automation.
+├── Visualization/      # Power BI (.pbix) or Tableau files.
+├── .gitignore          # Files Git should ignore (like large datasets or credentials).
+└── README.md           # The "cover" of your project in English.
+└── Structure.txt       # Explain repository structure and how to read/navigate.
